@@ -3,7 +3,7 @@
 check_even () {
     local mod=2
     echo "The value of mod is $mod"
-    if [ $(("$1" % $mod)) -eq 0 ]
+    if [ $(($1 % $mod)) -eq 0 ]
     then 
        echo "The number $1 is even!";
     else 
